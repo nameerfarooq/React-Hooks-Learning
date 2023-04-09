@@ -7,6 +7,9 @@ function OneMoreUseEffect() {
         }
     useEffect(()=>{
         window.addEventListener('resize',changesize)
+        return ()=>{
+            window.removeEventListener('resize', changesize)
+        }
     })
   return (
     <div>

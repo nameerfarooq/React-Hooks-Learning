@@ -1,14 +1,17 @@
 
 
 // eslint-disable-next-line
-import UseState from './Components/UseState';
-import UseStateExample from './Components/UseStateExample';
+import SecondUseEffect from './Components/SecondUseEffect/SecondUseEffect';
+import UseState from './Components/useState/UseState';
+import OneMoreUseEffect from './Components/SecondUseEffect/OneMoreUseEffect'
+import UseStateExample from './Components/useState/UseStateExample';
+
 
 function App() {
   return (
     <div className="App">
       <div>
-       <UseStateExample/>
+ <OneMoreUseEffect/>
       </div>
     </div>
   );
